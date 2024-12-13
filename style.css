@@ -2,6 +2,10 @@ body {
   background-color: rgb(215, 234, 252);
 }
 
+img {
+  height: 15rem;
+}
+
 .component {
   text-align: center;
   width: 15%;
@@ -40,4 +44,38 @@ body {
   margin: 0 auto;
   padding-bottom: 30px;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 433px) {
+  .component {
+    width: 80%;
+  }
+
+  img {
+    height: 8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .component {
+    width: 50%;
+  }
+  img {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .component {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .component {
+    width: 30%;
+  }
+  img {
+    height: 12rem;
+  }
 }
